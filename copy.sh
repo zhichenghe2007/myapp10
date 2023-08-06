@@ -187,22 +187,10 @@ cp /home/DEEPROUTE/zhichenghe/project/chatgpt/web/ChatGPT-Next-Web/app/component
 
 
 
+
 #更改合作站点配置
-#web5 ai.chatgptvip.info
-cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/en.ts|grep h285426134
-cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/cn.ts|grep h285426134
-cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/components/sidebar.tsx|grep h285426134
 
-sed -i 's/h285426134/longlielie/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/en.ts
-sed -i 's/h285426134/longlielie/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/cn.ts
-sed -i 's/h285426134/longlielie/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/components/sidebar.tsx
-
-cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/en.ts|grep longlielie
-cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/cn.ts|grep longlielie
-cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/components/sidebar.tsx|grep longlielie
-
-
-#web4  web.chatgptvip.info
+#web4  web.chatgptvip.info   ---狐狸的站点
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web4/myapp4/app/locales/en.ts|grep h285426134
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web4/myapp4/app/locales/cn.ts|grep h285426134
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web4/myapp4/app/components/sidebar.tsx|grep h285426134
@@ -216,7 +204,7 @@ cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web4/myapp4/app/locales/cn.ts|gre
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web4/myapp4/app/components/sidebar.tsx|grep djun138
 
 
-#web1  ai.chatgptvip.shop
+#web1  ai.chatgptvip.shop   -----个人样板站点
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web1/myapp1/app/locales/en.ts|grep h285426134
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web1/myapp1/app/locales/cn.ts|grep h285426134
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web1/myapp1/app/components/sidebar.tsx|grep h285426134
@@ -228,3 +216,31 @@ sed -i 's/h285426134/harrylee_007/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web1/myapp1/app/locales/en.ts|grep harrylee_007
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web1/myapp1/app/locales/cn.ts|grep harrylee_007
 cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web1/myapp1/app/components/sidebar.tsx|grep harrylee_007
+
+
+#web5 ai.chatgptvip.info   excel表格合作方
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/en.ts|grep h285426134
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/cn.ts|grep h285426134
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/components/sidebar.tsx|grep h285426134
+
+sed -i 's/h285426134/longlielie/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/en.ts
+sed -i 's/h285426134/longlielie/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/cn.ts
+sed -i 's/h285426134/longlielie/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/components/sidebar.tsx
+
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/en.ts|grep longlielie
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/cn.ts|grep longlielie
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/components/sidebar.tsx|grep longlielie
+
+
+#web10 www.chatgptvip.life  宏哥
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/en.ts|grep h285426134
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/cn.ts|grep h285426134
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/components/sidebar.tsx|grep h285426134
+
+sed -i 's/h285426134/mm290332552/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/en.ts
+sed -i 's/h285426134/mm290332552/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/cn.ts
+sed -i 's/h285426134/mm290332552/g' /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/components/sidebar.tsx
+
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/en.ts|grep longlielie
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/locales/cn.ts|grep longlielie
+cat /home/DEEPROUTE/zhichenghe/project/chatgpt/web5/myapp5/app/components/sidebar.tsx|grep longlielie
